@@ -2,4 +2,6 @@ language: node_js
 node_js:
   - "stable"
 
-before_script: chmod 0777 ./node_modules/.bin/mocha
+#uncomment if test fails from - Error Mocha Permissions Denied.
+
+#before_script: chmod 0777 ./node_modules/.bin/mocha
